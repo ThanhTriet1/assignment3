@@ -1,0 +1,375 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 50px auto;
+  width: 1200px;
+}
+section > .container {
+  width: 1200px;
+  display: block;
+  margin: 30px;
+}
+.bg-grey {
+  width: 1200px;
+  background: #f7f7f7;
+  padding: 0px;
+}
+
+/* BANNER */
+#banner {
+  position: relative;
+  width: auto;
+}
+#banner h1 {
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#banner p {
+  font-size: 20px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* NAVBAR */
+#nav-bar {
+  overflow: hidden;
+  background-color: #ffffff;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  border: solid 2px rgb(159, 159, 159);
+}
+#nav-bar a {
+  /* color: #000000; */
+  border-left: solid 2px rgb(111, 111, 111);
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 200px;
+}
+
+#nav-bar a:hover {
+  background-color: #793434;
+  color: rgb(255, 255, 255);
+}
+#nav-bar a:active {
+  background-color: #505050;
+  color: rgb(0, 0, 0);
+}
+#last-link {
+  border-right: solid 2px rgb(111, 111, 111);
+}
+/* ABOUT */
+#about {
+  width: 1200px;
+}
+#personal-information {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  gap: 0px;
+  width: 100%;
+  justify-items: center;
+}
+#target {
+  width: 100%;
+  font-size: 15px;
+  padding: 100px 30px;
+}
+#target h1 {
+  margin-bottom: 40px;
+}
+#target p {
+  line-height: 1.5;
+  color: #686868;
+}
+#personal-info {
+  display: inline-block;
+  padding: 100px 30px;
+  background-color: #d8d8d8;
+  width: 100%;
+  font-size: 15px;
+}
+#personal-info h1 {
+  margin-bottom: 30px;
+}
+#personal-info ul {
+  line-height: 2;
+  list-style: none;
+  color: #686868;
+}
+#personal-info span {
+  font-weight: bold;
+}
+.icon {
+  display: inline-block;
+  padding-top: 50px;
+  color: rgb(69, 127, 221);
+}
+/* Job-infor */
+#job-info {
+  display: grid;
+  gap: 40px 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr auto;
+}
+#job-info p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+#job-info .section-title {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+#job-info .section-content {
+  padding: 10px;
+}
+.habbit {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.habbit i {
+  padding: 10px;
+  border-radius: 50%;
+  border: solid 3px aquamarine;
+}
+.skills h1 {
+  grid-column: 1/4;
+  grid-row: 1/3;
+}
+.skills p {
+  grid-column: 1/5;
+}
+.score {
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+}
+.kn-1 {
+  background-color: #199cdb;
+}
+.kn-2 {
+  background-color: grey;
+}
+.kn-3 {
+  background-color: grey;
+}
+.kn-4 {
+  background-color: #199cdb;
+}
+.kn-5 {
+  background-color: #199cdb;
+}
+.kn-6 {
+  background-color: grey;
+}
+.kn-7 {
+  background-color: #199cdb;
+}
+.kn-8 {
+  background-color: #199cdb;
+}
+.kn-9 {
+  background-color: grey;
+}
+.kn-10 {
+  background-color: #199cdb;
+}
+.kn-11 {
+  background-color: grey;
+}
+.kn-12 {
+  background-color: grey;
+}
+
+.language {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(6, 30px);
+  padding: 30px;
+}
+.language h1 {
+  grid-row: 1/3;
+  grid-column: 1/4;
+}
+.language p {
+  grid-column: 1/5;
+}
+.nn-1 {
+  background-color: #199cdb;
+}
+.nn-2 {
+  background-color: #199cdb;
+}
+.nn-3 {
+  background-color: grey;
+}
+.nn-4 {
+  background-color: #199cdb;
+}
+.nn-5 {
+  background-color: grey;
+}
+.nn-6 {
+  background-color: grey;
+}
+.control-view {
+}
+/* Chung chi  */
+.content {
+  margin-top: 20px;
+  padding: 30px 30px 30px 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px 0px;
+}
+.content h1 {
+  grid-column: 1/3;
+}
+.content h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.content-img img {
+  float: left;
+  padding: 20px;
+}
+.p1 {
+  border-right: solid 2px #d6c08d;
+  border-bottom: solid 2px #d6c08d;
+}
+.p2 {
+  border-bottom: solid 2px #d6c08d;
+}
+/* project */
+#project {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px 1fr;
+  gap: 30px;
+}
+#project h1 {
+  grid-column: 1/4;
+}
+.title {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px;
+  border-bottom: solid 2px grey;
+}
+.name {
+  display: block;
+  padding: 20px;
+  /* border-bottom: solid 2px grey; */
+}
+.year {
+  display: inline-block;
+  background-color: #199cdb;
+  width: 50px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+}
+.icon-user-1 {
+  padding: 10px;
+  font-size: 25px;
+}
+.icon-lamp {
+  padding: 10px;
+  font-size: 25px;
+}
+table {
+  border: solid 2px grey;
+}
+tr {
+  border-bottom: solid 2px grey;
+}
+th {
+  width: 20%;
+}
+td {
+  padding: 10px 20px;
+}
+/* footer */
+#footer {
+  display: inline-block;
+  padding: 30px;
+}
+#footer a {
+  padding: 20px 0px;
+  margin-right: 40px;
+}
+#footer a:link {
+  text-decoration: none;
+}
+#footer a:visited {
+  color: #7c7c7c;
+}
+#footer a:hover {
+  color: rgb(4, 0, 255);
+}
+.icon-facebook-circled {
+  color: #199cdb;
+  font-size: 40px;
+}
+.icon-linkedin-circled {
+  color: #199cdb;
+  font-size: 40px;
+}
+.icon-github-circled {
+  color: #199cdb;
+  font-size: 40px;
+}
+/* banner */
+.default {
+  position: absolute;
+  left: 525px;
+  top: 45%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 10px white;
+  z-index: 5;
+}
+header {
+  position: relative;
+}
+/* An thong tin ca nhan*/
+#personal-info .section-content {
+  display: none;
+}
+#error-email {
+  color: red;
+  font-weight: 700;
+}
+/*View more less more*/
+#job-info .section-content {
+  display: none;
+}
+.view-more,
+.less-more {
+  display: none;
+}
+.control-view {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
